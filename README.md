@@ -1,23 +1,27 @@
-# NEWRON_LEN
+# Concept Distillation Module
 
-GCExplainer:
-https://github.com/CharlotteMagister/GCExplainer
-https://arxiv.org/pdf/2107.11889.pdf
+This repository contains the code for the paper: "Concept Distillation in Graph Neural Networks" ([Link](https://link.springer.com/chapter/10.1007/978-3-031-44070-0_12#:~:text=The%20proposed%20approach%20is%20a,these%20to%20solve%20the%20task.))
 
-pytorch_explain
-https://github.com/pietrobarbiero/pytorch_explain
-...
+## Citing
 
+If you find this code useful in your research, please consider citing:
 
-NEWRON paper:
-https://arxiv.org/abs/2110.02775
+```
+@inproceedings{magister2023CDM,
+	author = {Magister, Lucie Charlotte and Barbiero, Pietro and Kazhdan, Dmitry and Siciliano, Federico and Ciravegna, Gabriele and Silvestri, Fabrizio and Jamnik, Mateja and Li{\`o}, Pietro},
+	booktitle = {Explainable Artificial Intelligence},
+	editor = {Longo, Luca},
+	isbn = {978-3-031-44070-0},
+	pages = {233--255},
+	publisher = {Springer Nature Switzerland},
+	title = {Concept Distillation in Graph Neural Networks},
+	year = {2023}}
 
-From Clustering to Cluster Explanations via Neural Networks:
-https://arxiv.org/pdf/1906.07633.pdf
-Use to make GCExplainer differentiable?
+```
+## Requirements
 
+Simply create a virtual envrionment and run `pip install -r requirements.txt`
 
-Deep Graph Mapper: Seeing Graphs Through the Neural Lens:
-https://www.frontiersin.org/articles/10.3389/fdata.2021.680535/full
----> Hierarchical visualization? (for GCE?)
+## Running Instructions
 
+The repository provides a set of Jupyter Notebooks to make replication of the experiments as easy as possible.
